@@ -7,18 +7,14 @@ body {
   text-align: center;
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fcf3e2;
 }
 
 img {
   display: inline-block;
 }
 
-h1 {
-  font-size: 5.625rem;
-  margin: 50px auto 0;
-  font-family: Sacramento, cursive;
-  color: #66bfbf;
-}
+
 
 h2 {
   font-size: 2.5rem;
@@ -46,20 +42,17 @@ a {
   right: 30%;
 }
 
-.skill-row {
+.interest-row {
   width: 50%;
   margin: 100px auto;
   text-align: left;
   line-height: 2;
 }
 
-.skill-row:nth-child(2) {
-  text-align: right;
-}
-
-
-.skill-row:nth-child(3) {
-  margin-top: 200px;
+.profile-img {
+  border-radius: 100%;
+  width: 300px;
+  margin-top: 20px;
 }
 
 .laptop-img {
@@ -80,13 +73,14 @@ hr:nth-child(4) {
   margin-top: 160px;
 }
 
-/* .top {} */
-
-.middle {
-  background-color: white;
+.appa-img {
+  width: 200px;
+  float: left;
+  margin-right: 30px;
+  border-radius: 100%;
 }
 
 .bottom {
-  background: white;
+
   height: 100%;
 }
