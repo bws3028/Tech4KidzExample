@@ -1,0 +1,92 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img {
+  display: inline-block;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0;
+  font-family: Sacramento, cursive;
+  color: #66bfbf;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: Montserrat, sans-serif;
+  font-weight: normal;
+  color: #66bfbf;
+}
+
+h3 {
+  font-family: Montserrat, sans-serif;
+  color: #11999e;
+}
+
+a {
+  color: #11999e;
+}
+
+.cloud-1,
+.cloud-2 {
+  position: absolute;
+}
+
+.cloud-1 {
+  top: 100px;
+  right: 30%;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-row:nth-child(2) {
+  text-align: right;
+}
+
+
+.skill-row:nth-child(3) {
+  margin-top: 200px;
+}
+
+.laptop-img {
+  width: 200px;
+  float: left;
+  margin-right: 30px;
+  border-radius: 100%;
+}
+
+.chilli-img {
+  width: 200px;
+  float: right;
+  margin-left: 30px;
+  margin-bottom: 50px;
+}
+
+hr:nth-child(4) {
+  margin-top: 160px;
+}
+
+/* .top {} */
+
+.middle {
+  background-color: white;
+}
+
+.bottom {
+  background: white;
+  height: 100%;
+}
